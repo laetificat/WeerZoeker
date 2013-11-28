@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Weerzoeker</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_weerzoeker">Weerzoeker</string>
+    <string name="title_activity_weer_zoeker_database_handler">WeerZoekerDatabaseHandler</string>
+    <string name="title_activity_display">Het weer</string>
+    <string name="searchURL">http://api.openweathermap.org/data/2.5/weather?q=leiden,nl</string>
+    <string name="naam">Naam</string>
+    <string name="plaats">Plaats</string>
+    <string name="saveButton">Save</string>
+    <string name="clearAllButton">Clear All</string>
+    <string name="loading">Loading...</string>
+
+    <string-array name="country_array">
+        <item>NL</item>
+        <item>UK</item>
+        <item>US</item>
+        <item>DE</item>
+        <item>FR</item>
+    </string-array>
+    
+    
+</resources>

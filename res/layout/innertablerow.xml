@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/TableRowSukkit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent" >
+    
+    
+    <Button
+        android:id="@+id/newTagButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="70" />
+    
+    <Button
+        android:id="@+id/newEditButton"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/edit"
+        android:src="@drawable/edit"
+        android:layout_weight="10" />
+
+    <Button
+        android:id="@+id/newDeleteButton"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:background="@drawable/delete"
+        android:src="@drawable/delete"
+        android:layout_weight="10" />
+
+</TableRow>
