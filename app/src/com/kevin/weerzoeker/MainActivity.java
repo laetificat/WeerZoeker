@@ -116,7 +116,6 @@ public class MainActivity extends Activity {
 		
 		
 		//Empty button, should edit items when clicked
-		
 		//newEditButton.setOnClickListener(new OnClickListener() {
 		//	
 		//	@Override
@@ -127,13 +126,13 @@ public class MainActivity extends Activity {
 		
 		
 		//Doesn't work yet lel
-		
 		clearTagsButton.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
-				db.emptyBierWeer();
+				db.emptyWeerZoeker();
+				Toast.makeText(getApplicationContext(), "Dit zou alles moeten verwijderen in de database!", Toast.LENGTH_LONG).show();
 			}
 		});
 	}

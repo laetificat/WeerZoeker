@@ -91,7 +91,7 @@ public class WeerZoekerDatabaseHandler extends SQLiteOpenHelper {
 	
 	// emptyBierWeer maakt de tabel leeg. Wat gebeurd er als er door upgrades meer tabel in de database
 	// zitten met de andere tabellen?
-	public void emptyBierWeer() {
+	public void emptyWeerZoeker() {
 		SQLiteDatabase db = this.getWritableDatabase();
 
 		db.execSQL("DROP TABLE IF EXISTS " + WEERZOEKER_TABLE);
